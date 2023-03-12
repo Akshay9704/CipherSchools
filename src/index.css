@@ -1,13 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: lightblue;
+  height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 100px;
 }
+
+.login,
+.register {
+  width: 400px;
+  background: white;
+  border: 1px solid whitesmoke;
+  box-shadow: 0 2px 4px rgb(0 0 0 /10%), 0 8px 16px rgb(0 0 0 /10%);
+  border-radius: 8px;
+  padding: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+.login > input,
+.register > input {
+  border-radius: 8px;
+  border: 2px solid #dddfe2;
+  outline: none;
+  color: #1d2129;
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.75rem;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.login > .button,
+.register > .button {
+  background: #1877f2;
+  border: 1px solid #1877f2;
+  color: #fff;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
+
+
+.video-js {
+  width: 700px;
+  height: auto;
+  display:block;
+  margin: 0 400px;
+  aspect-ratio: 16/9;
+}
+
+.Views {
+  margin-left: 57rem;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .video-js {
+    max-width: 100%;
+    margin: 0;
+  }
+  .Views {
+    margin-left: 22rem;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .video-js {
+    max-width: 100%;
+    margin: 0;
+  }
+  .Views {
+    margin-left: 4rem;
+    margin-top: 0;
+  }
+}
+
+
+

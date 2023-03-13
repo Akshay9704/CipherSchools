@@ -17,6 +17,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+##Steps to run:-
+1) Fork this project and add it on your local system
+2) Use MongoDB and set connection string to mongodb://localhost:27017/LoginRegister 
+3) Write npm run in terminal and for backend write cd Backend and write Node App.
+4) You're done, Your full-stack website is running.
+
 ## Available Scripts
 
 In the project directory, you can run:

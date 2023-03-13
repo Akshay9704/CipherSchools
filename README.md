@@ -6,6 +6,13 @@
 ##REGISTER
 ![Reg](https://user-images.githubusercontent.com/107040611/224675186-bc4eea6a-5a18-402d-b787-da24d29354b8.JPG)
 
+##Showcase
+![show](https://user-images.githubusercontent.com/107040611/224684921-dd8e900a-98b5-40f9-bca3-4d95358ebdf6.JPG)
+
+##Player
+![Player](https://user-images.githubusercontent.com/107040611/224685135-4ce90427-891b-477a-8149-c1374794772d.JPG)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

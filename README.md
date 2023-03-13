@@ -1,3 +1,11 @@
+### IMAGES
+
+##LOGIN
+![Login](https://user-images.githubusercontent.com/107040611/224675116-193a8b02-71b2-471d-bf3c-2090f993e256.JPG)
+
+##REGISTER
+![Reg](https://user-images.githubusercontent.com/107040611/224675186-bc4eea6a-5a18-402d-b787-da24d29354b8.JPG)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
